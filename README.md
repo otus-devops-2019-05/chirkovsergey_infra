@@ -68,6 +68,7 @@ ProxyCommand ssh bastion nc %h %p
 работу.
 
 ## Как запустить проект:
+
 testapp_IP = 35.241.177.71
 testapp_port = 9292
  
