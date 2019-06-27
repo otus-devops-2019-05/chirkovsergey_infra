@@ -69,7 +69,7 @@ ProxyCommand ssh bastion nc %h %p
 
 ## Как запустить проект:
 
-testapp_ip = 35.241.177.71
+testapp_ip = http://35.195.186.92
 testapp_port = 9292
  
 устоновка приложения осуществляется 3 скриптами:
@@ -85,10 +85,9 @@ gcloud compute firewall-rules create default-puma-server --allow=tcp:9292 --targ
 
 ## Как проверить работоспособность:
 для проверки необходимо перейти по URl:
-http://35.241.177.71:9292/
+http://http://35.195.186.92:9292/
 
 ## PR checklist
  - [ &] Выставил label с номером домашнего задания
  - [ V ] Выставил label с темой домашнего задания
-
 
