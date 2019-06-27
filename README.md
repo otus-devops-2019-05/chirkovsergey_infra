@@ -69,7 +69,7 @@ ProxyCommand ssh bastion nc %h %p
 
 ## Как запустить проект:
 
-testapp_ip = http://35.195.186.92
+testapp_ip = 35.195.186.92
 testapp_port = 9292
  
 устоновка приложения осуществляется 3 скриптами:
