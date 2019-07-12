@@ -1,0 +1,7 @@
+{
+  "project_id": "infra-244207",
+  "source_image_family": "ubuntu-1604-lts",
+  "image_description": "Ubuntu 16 lts image with installed Ruby and MongoDB",
+  "tags": "puma-server",
+  "disk_size" : "11"
+}
