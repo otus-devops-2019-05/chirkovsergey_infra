@@ -49,7 +49,7 @@ ProxyCommand ssh bastion nc %h %p
 
 ## PR checklist
  - [] Выставил label с номером домашнего задания
- - [x] Выставил label с темой домашнего задания
+ - [] Выставил label с темой домашнего задания
 
 
 # Выполнено ДЗ № 4
@@ -89,8 +89,8 @@ gcloud compute firewall-rules create default-puma-server --allow=tcp:9292 --targ
 http://http://35.195.186.92:9292/
 
 ## PR checklist
- - [ &] Выставил label с номером домашнего задания
- - [ x ] Выставил label с темой домашнего задания
+ - [x] Выставил label с номером домашнего задания
+ - [] Выставил label с темой домашнего задания
 
 
 # Выполнено ДЗ № 6
