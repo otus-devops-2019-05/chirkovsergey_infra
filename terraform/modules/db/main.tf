@@ -16,7 +16,7 @@ resource "google_compute_instance" "db" {
   }
 
   metadata {
-    ssh-keys = "appuser:${file(var.public_key_path)}"
+    ssh-keys = "sergey:${file(var.public_key_path)}"
   }
 }
 
